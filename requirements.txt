@@ -1,0 +1,34 @@
+# NanoPy - Ethereum Fork Dependencies
+# Core Ethereum packages
+eth-account>=0.8.0          # Account management & signing
+eth-keys>=0.4.0             # Cryptographic keys
+eth-typing>=3.0.0           # Type definitions
+eth-utils>=2.0.0            # Utility functions
+eth-hash[pycryptodome]>=0.5.0  # Hashing utilities
+eth-abi>=4.0.0              # ABI encoding/decoding
+eth-rlp>=0.3.0              # RLP encoding
+rlp>=3.0.0                  # Recursive Length Prefix encoding
+
+# Networking & RPC
+web3>=6.0.0                 # Web3 interface
+aiohttp>=3.8.0              # Async HTTP
+websockets>=10.0            # WebSocket support
+
+# Cryptography
+py-ecc>=6.0.0               # Elliptic curve crypto
+pycryptodome>=3.15.0        # Crypto primitives
+ecdsa>=0.18.0               # ECDSA signatures
+
+# Data structures
+trie>=2.0.0                 # Merkle Patricia Trie
+
+# CLI & Dev tools
+click>=8.0.0                # CLI framework
+rich>=12.0.0                # Beautiful terminal output
+python-dotenv>=0.20.0       # Environment variables
+
+# P2P Networking (libp2p)
+libp2p>=0.2.0               # libp2p Python implementation
+multiaddr>=0.0.9            # Multiaddr for peer addressing
+protobuf>=3.20.0            # Protocol buffers for efficient serialization
+trio>=0.22.0                # Async framework (required by libp2p)
