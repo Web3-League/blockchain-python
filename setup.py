@@ -64,7 +64,7 @@ setup(
     description="A lightweight Ethereum-compatible blockchain fork with P2P networking",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/nanopy/nanopy-chain",
+    url="https://github.com/Web3-League/blockchain-python",
     packages=find_packages(exclude=["tests", "tests.*", "replace_imports"]),
     python_requires=">=3.8",
     install_requires=requirements,
